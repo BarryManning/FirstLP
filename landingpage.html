@@ -9,49 +9,84 @@
 </head>
 
 <body>
-<!-- header -->
+
+<!-- navbar -->
+
     <div class="container" id="navbar">
-        <div id="logo"></div>
-        <a href="">Home</a>
-        <a href="">About us</a>
-        <a href="">Contact</a>
-    </div>
-<!-- sign up block -->
-    <div class="container">
-        <div id="signupprompt">
-            <h1>This website is awesome</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur</p>
-            <button>Sign up</button>
+        <p id="headerlogo">Header Logo</p>
+        <div id="navbarlinks">
+            <a href="">header link one</a>
+            <a href="">header link two</a>
+            <a href="">header link three</a>
         </div>
-        <img src="">
     </div>
+
+<!-- sign up block -->
+
+    <div class="container" id="signupblock">
+        <div id="signupnested">
+            <h1 class="removepadding">This website is awesome</h1>
+            <p class="removepadding">Lorem, ipsum dolor sit amet consectetur</p>
+            <button class="removepadding">Sign up</button>
+        </div>
+        <div id="img">this is a placeholder for an image</div>
+    </div>
+
 <!-- reference images -->
+
     <div class="container">
-        <div>
+        <div id="imageblock">
             <h2>Some random information</h2>
-            <div>
-                <img src="">
-                <img src="">
-                <img src="">
-                <img src="">
+            <div id="imagesquares">
+                <div class="tile">
+                    <div class='square'></div>
+                    <p class="tileinfo">random info</p>
+                </div>
+                <div class="tile">
+                    <div class='square'></div>
+                    <p class="tileinfo">random info</p>
+                </div>
+                <div class="tile">
+                    <div class='square'></div>
+                    <p class="tileinfo">random info</p>
+                </div>
+                <div class="tile">
+                    <div class='square'></div>
+                    <p class="tileinfo">random info</p>
+                </div>
             </div>
         </div>
     </div>
+
 <!-- quote block -->
-    <div class="container">
-        <p>
 
+    <div class="container" id="quotesection">
+        <p class="removepadding">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde sit animi doloremque, quos voluptatum repudiandae nesciunt ipsa temporibus omnis dolor quae mollitia distinctio ex commodi eum voluptatibus assumenda minima maiores.
+        </p>
+        <p id="thorq" class="removepadding">
+            -Thor, God of Thunder
         </p>
     </div>
+
 <!-- sign up -->
-    <div class="container">
 
+    <div class="container" id="calltoactionsection">
+        <div id="bluerect">
+            <div id="calltoaction">
+                <p class="removepadding">Call to action! It's time!</p>
+                <p class="removepadding">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div>
+                <button id="calltoactionbutton">Sign up</button>
+            </div>
+        </div>
     </div>
-<!-- footer -->
-    <div class="container">
-        <p>
 
-        </p>
+<!-- footer -->
+
+    <div class="container" id="footer">
+        <p>Copyright @ The Odin Project 2021</p>
     </div>
 
 </body>
